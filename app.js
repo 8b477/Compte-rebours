@@ -29,7 +29,6 @@ btnUserStart.addEventListener('click', function recuTwo(){
     }
     if (inputSecondes.value === '0'){
         clearInterval(interval);
-
     }
     if (inputMinutes.value === '0'){
         clearInterval(interval);
@@ -53,7 +52,6 @@ btnUserStart.addEventListener('click', function recuTwo(){
         spanHour.innerHTML = "";
     })
 });
-
 
 function minutes(){
     inputMinutes.value--;
